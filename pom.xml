@@ -13,7 +13,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.main.class>com.evimetry.byteplotter.Main</project.main.class>
+		<project.main.class>com.schatzforensic.byteplotter.Main</project.main.class>
 		<lib.directory>${project.build.directory}/lib</lib.directory>
 	</properties>
 

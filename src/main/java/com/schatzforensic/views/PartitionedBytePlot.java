@@ -40,6 +40,13 @@ import javax.media.jai.RenderedOp;
 public class PartitionedBytePlot extends BytePlot {
 
 	/**
+	* this gets rid of exception for not using native acceleration
+	*/
+	static 	{
+		System.setProperty("com.sun.media.jai.disableMediaLib", "true");
+	}
+	
+	/**
 	 * The size of the blocks to use.
 	 */
 	private final int blockSize;
