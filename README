@@ -1,0 +1,6 @@
+NAND Visualisation Tool
+
+This tool enables the generation of byteplots of raw NAND images under user specified of 
+user data/spare hypotheses. 
+
+See: http://www.schatzforensic.com.au/nand/
